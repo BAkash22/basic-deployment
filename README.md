@@ -41,3 +41,5 @@ Efficiency: Automates the deployment process, saving time and reducing manual er
 Scalability: Makes it easier to scale your application as needed without worrying about the underlying infrastructure.
 Collaboration: Facilitates team collaboration by allowing multiple developers to contribute to the codebase while maintaining consistent deployment practices.
 Learning: Provides hands-on experience with modern development practices, including containerization, cloud deployment, and CI/CD (Continuous Integration/Continuous Deployment).
+
+![image](https://github.com/user-attachments/assets/07aba00a-94bf-4855-9b5e-113d14d5d265)
