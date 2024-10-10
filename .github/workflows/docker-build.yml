@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # Change this to your branch name if it's different
+      - master  # Change this to your branch name if it's different
 
 jobs:
   build:
@@ -33,5 +33,5 @@ jobs:
 
       - name: Deploy to Render
         run: |
-          curl -X POST https://api.render.com/v1/services/YOUR_SERVICE_ID/deploy \
+          curl -X POST https://api.render.com/v1/services/srv-cs3ne88gph6c73c4q1o0/deploy \
           -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}"
